@@ -8,7 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53fdc2ef-dd7d-4363-ac70-70fe97c99d88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment_10.1/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/Assignment_10.1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/Assignment_10.1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/Assignment_10.1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/Assignment_10.1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/Assignment_10.1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/Assignment_10.1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/student.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/bin/Debug/net9.0-windows/student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/Assignment_10.1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/ref/Assignment_10.1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/ref/Assignment_10.1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/refint/Assignment_10.1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_10.1/obj/Debug/net9.0-windows/refint/Assignment_10.1.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749490448149</updated>
-      <workItem from="1749490449858" duration="10411000" />
+      <workItem from="1749490449858" duration="10563000" />
     </task>
     <servers />
   </component>
