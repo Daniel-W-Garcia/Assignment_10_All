@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StudentID>23649236</StudentID>
+  <FirstName>Daniel</FirstName>
+  <LastName>Garcia</LastName>
+  <GPA>3.6</GPA>
+  <Address>57463 Somewhere Rd</Address>
+</Student>
