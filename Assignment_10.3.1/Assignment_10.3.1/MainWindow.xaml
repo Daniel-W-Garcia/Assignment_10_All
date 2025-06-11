@@ -1,0 +1,81 @@
+﻿
+<Window x:Class="Assignment_10._3._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_10._3._1"
+        mc:Ignorable="d"
+        Title="Employee Management" Height="600" Width="900">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Employee Section -->
+        <GroupBox Grid.Row="0" Header="Employees" FontWeight="Bold" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <DataGrid Grid.Row="0" Name="EmployeeDataGrid"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          CanUserDeleteRows="False"
+                          SelectionMode="Single"
+                          Margin="5">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                        <DataGridTextColumn Header="Salary" Binding="{Binding Salary, StringFormat=C}"/>
+                        <DataGridTextColumn Header="Department ID" Binding="{Binding DepartmentId}"/>
+                        <DataGridTextColumn Header="Department Name" Binding="{Binding Department.DepartmentName}" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                
+                <!-- Employee Buttons -->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <Button Name="AddEmployeeBtn" Content="Add Employee" Width="100" Height="30" Margin="5" Click="AddEmployeeBtn_Click"/>
+                    <Button Name="UpdateEmployeeBtn" Content="Update Employee" Width="120" Height="30" Margin="5" Click="UpdateEmployeeBtn_Click"/>
+                    <Button Name="DeleteEmployeeBtn" Content="Delete Employee" Width="120" Height="30" Margin="5" Click="DeleteEmployeeBtn_Click"/>
+                    <Button Name="RefreshEmployeesBtn" Content="Refresh" Width="80" Height="30" Margin="5" Click="RefreshEmployeesBtn_Click"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        
+        <!-- Row 1 left empty for auto-spacing -->
+        
+        <!-- Department Section -->
+        <GroupBox Grid.Row="2" Header="Departments" FontWeight="Bold" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <DataGrid Grid.Row="0" Name="DepartmentDataGrid"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          CanUserDeleteRows="False"
+                          SelectionMode="Single"
+                          Margin="5">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Department ID" Binding="{Binding DepartmentId}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Department Name" Binding="{Binding DepartmentName}"/>
+                        <DataGridTextColumn Header="Location" Binding="{Binding DepartmentLocation}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                
+                <!-- Department Buttons -->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <Button Name="RefreshDepartmentsBtn" Content="Refresh Departments" Width="150" Height="30" Margin="5" Click="RefreshDepartmentsBtn_Click"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
