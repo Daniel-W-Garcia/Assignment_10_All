@@ -98,10 +98,10 @@ public partial class MainWindow : Window
     {
         if (EmployeeDataGrid.SelectedItem is Employee selectedEmployee)
         {
-            var result = MessageBox.Show($"Are you sure you want to delete employee '{selectedEmployee.Name}'?", 
+            var userResponse = MessageBox.Show($"Are you sure you want to delete employee '{selectedEmployee.Name}'?", 
                 "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
-            if (result == MessageBoxResult.Yes)
+            if (userResponse == MessageBoxResult.Yes)
             {
                 try
                 {
